@@ -17,4 +17,4 @@ class Scraper
 
 end
 
-profile = Scraper.new
+profile = Scraper.new.scrape_profile_page
