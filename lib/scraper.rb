@@ -17,3 +17,4 @@ class Scraper
 
 end
 
+profile = Scraper.new
