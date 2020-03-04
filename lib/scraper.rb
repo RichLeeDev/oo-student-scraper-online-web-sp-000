@@ -8,8 +8,10 @@ class Scraper
   end
 
   def self.scrape_profile_page(profile_url)
-    self.scrape_index_page.css()
+    self.scrape_index_page.css(".student-card")
   end
+  
+  
 
 end
 
